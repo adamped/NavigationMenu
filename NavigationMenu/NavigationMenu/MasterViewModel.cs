@@ -18,6 +18,7 @@ namespace NavigationMenu
 					var mdp = (Application.Current.MainPage as MasterDetailPage);
 					var navPage = mdp.Detail as NavigationPage;
 
+					// Hide the Master page
 					mdp.IsPresented = false;
 
 					switch (value)
